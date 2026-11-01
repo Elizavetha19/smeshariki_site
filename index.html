@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Мой сайт о любимом мультсериале Смешарики">
+    <title>Любимый мультфильм</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Любимый мультсериал</h1>
+
+        <a href="index.html">Главная</a> |
+        <a href="characters.html">Персонажи</a> |
+        <a href="facts.html">Небольшая информация</a>
+        
+    </header>
+
+    <main>
+        <p>
+            «Смешарики» - мой самый любимый мультсериал, потому что это проект в который вложили душу и каждый сможет найти в сериях особый глубокий смысл, а также персонажа похожего на него. 
+            На этом сайте я хочу поделиться частью информацией, которая возможно сможет привлечь и вас.
+        </p>
+
+        <img
+    src="images/heroes.png"
+    alt="Смешарики"
+    width="950"
+    class="picture-center"
+>
+        
+<h2>Некоторые интерактивные возможности</h2>
+
+<h3>Вы можете изменить цвет фона на предложенные варианты (они соответствуют цветам основных персонажей)</h3>
+
+<button onclick="changeBackground('#ffffff')">
+    Изначальный
+</button>
+
+<button onclick="changeBackground('#ff7218')">
+    Оранжевый (Копатыч)
+</button>
+
+<button onclick="changeBackground('#77DDE7')">
+    Голубой (Крош)
+</button>
+
+<button onclick="changeBackground('#9518ff')">
+    Фиолетовый (Совунья)
+</button>
+
+<button onclick="changeBackground('#ffa918')">
+    Жёлтый (Лосяш)
+</button>
+
+<button onclick="changeBackground('#f78dc3')">
+    Светло - розовый (Нюша)
+</button>
+
+<button onclick="changeBackground('#e48df7')">
+    Светло - фиолетовый (Бараш)
+</button>
+
+<button onclick="changeBackground('#ed21c9')">
+    Тёмно - розовый (Ёжик)
+</button>
+
+<button onclick="changeBackground('#2130ed')">
+    Синий (Карыч)
+</button>
+
+<button onclick="changeBackground('#45464f')">
+    Тёмный (Пин)
+</button>
+
+<h3>А также можете узнать сегодняшнюю дату, для этого нажмите на кнопку</h3>
+
+<button onclick="showDate()">
+    Показать сегодняшнюю дату
+</button>
+
+    </main>
+</body>
+</html>
